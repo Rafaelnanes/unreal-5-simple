@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/BaseLevel.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/MainLevel.umap",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/rock_tile_floor_disp_1k.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/rock_tile_floor_diff_1k.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/Walls.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/Floor.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/snow_floor_diff_1k.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/snow_floor_disp_1k.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemy.uasset"
+			]
+		}
+	]
+}
