@@ -13,7 +13,31 @@
 				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/Floor.uasset",
 				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/snow_floor_diff_1k.uasset",
 				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Material/snow_floor_disp_1k.uasset",
-				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemy.uasset"
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemy.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/BP_Enemy.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/BP_Player.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/MainGameMode.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/BM_PlayerController.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/BP_PlayerController.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MainGameMode.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MainLevel.umap",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Controller/BP_PlayerController.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Controller/IA_Jump.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Controller/IMC_Jump.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_PlayerController.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Jump.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IMC_Jump.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Movement.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IMC_Movement.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Right_Left.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IMC_Right_Left.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Forward.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Back.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Right.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Left.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IMC_Default.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Look.uasset"
 			]
 		}
 	]
