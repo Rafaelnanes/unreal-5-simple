@@ -39,7 +39,10 @@
 				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IMC_Default.uasset",
 				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/IA_Look.uasset",
 				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/Actor_Blueprint.uasset",
-				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/BP_Door.uasset"
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/BP_Door.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemies/BP_Enemy.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemies/BP_EnemyUsingTick.uasset",
+				"C:/dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemies/BP_EnemyUsingLerp.uasset"
 			]
 		}
 	]
