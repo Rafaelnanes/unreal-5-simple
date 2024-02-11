@@ -2831,3 +2831,20 @@ BUILD FAILED
 [2024.02.11-16.10.18:128][941]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy_DPS.BP_Enemy_DPS
 [2024.02.11-16.10.18:625][972]BlueprintLog: New page: Compile BP_Enemy_DPS
 [2024.02.11-16.10.18:702][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2024.02.11-16.16.19:598][676]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2024.02.11-16.16.19:601][676]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.040
+[2024.02.11-16.16.19:602][676]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemies/BP_Enemy_DPS] ([2] browsable assets)...
+[2024.02.11-16.16.19:622][676]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/BP_Enemy_DPS.BP_Enemy_DPS]
+[2024.02.11-16.16.19:622][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/BP_Enemy_DPS]
+[2024.02.11-16.16.19:651][676]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/BP_Enemy_DPS_Auto3
+[2024.02.11-16.16.19:651][676]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Enemy_DPS_Auto3E2881AEA4BFE501F0ABAECBFC03BC523.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Enemies/BP_Enemy_DPS_Auto3.uasset'
+[2024.02.11-16.16.19:653][676]LogFileHelpers: Auto-saving content packages took 0.051
+[2024.02.11-16.18.40:945][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.02.11-16.18.40:953][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-16.18.41:033][100]LogSavePackage: Moving output files for package: /Game/Enemies/BP_Enemy_DPS
+[2024.02.11-16.18.41:034][100]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Enemy_DPS1F924568499C0F1EDEB6ED943F0D1EAA.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Enemies/BP_Enemy_DPS.uasset'
+[2024.02.11-16.18.41:051][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 1.97 sec)
+[2024.02.11-16.18.41:055][100]AssetCheck: New page: Asset Save: BP_Enemy_DPS
+[2024.02.11-16.18.41:055][100]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy_DPS.BP_Enemy_DPS
+[2024.02.11-16.18.41:339][108]BlueprintLog: New page: Compile BP_Enemy_DPS
+[2024.02.11-16.18.41:418][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
