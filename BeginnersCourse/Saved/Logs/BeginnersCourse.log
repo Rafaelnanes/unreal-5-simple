@@ -2848,3 +2848,1110 @@ BUILD FAILED
 [2024.02.11-16.18.41:055][100]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy_DPS.BP_Enemy_DPS
 [2024.02.11-16.18.41:339][108]BlueprintLog: New page: Compile BP_Enemy_DPS
 [2024.02.11-16.18.41:418][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.02.11-16.19.05:483][289]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.11-16.19.05:505][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-16.19.05:505][289]PIE: New page: PIE session: MainLevel (11/02/2024, 16:19:05)
+[2024.02.11-16.19.05:505][289]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.11-16.19.05:520][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014642s)
+[2024.02.11-16.19.05:520][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.014755s)
+[2024.02.11-16.19.05:557][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2024.02.11-16.19.05:563][289]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-16.19.05:564][289]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-16.19.05:565][289]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.11-16.19.05:565][289]LogPlayLevel: PIE: World Init took: (0.002079s)
+[2024.02.11-16.19.05:565][289]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-16.19.05:565][289]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-16.19.05:565][289]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-16.19.05:566][289]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-16.19.05:566][289]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-16.19.05:566][289]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-16.19.05:569][289]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-16.19.05:598][289]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.11-16.19.05:599][289]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-16.19.05:599][289]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-16.19.05:599][289]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-16.19.05:601][289]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.11-16.19.05:601][289]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.11-16.19.05:604][289]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.11-16.19.05:604][289]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.11-16.19.05:604][289]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.11-16.19.05:604][289]LogAudio: Display: Audio Device (ID: 16) registered with world 'MainLevel'.
+[2024.02.11-16.19.05:604][289]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.11-16.19.05:618][289]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.11-16.19.05:620][289]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.11-16.19.05
+[2024.02.11-16.19.05:620][289]LogWorld: Bringing up level for play took: 0.001481
+[2024.02.11-16.19.05:623][289]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.02.11-16.19.05:629][289]PIE: Server logged in
+[2024.02.11-16.19.05:631][289]PIE: Play in editor total start time 0,126 seconds.
+[2024.02.11-16.19.06:822][339]LogBlueprintUserMessages: [BP_Player_C_0] 90.0
+[2024.02.11-16.19.07:840][397]LogBlueprintUserMessages: [BP_Player_C_0] 85.0
+[2024.02.11-16.19.08:841][451]LogBlueprintUserMessages: [BP_Player_C_0] 80.0
+[2024.02.11-16.19.09:198][465]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.11-16.19.09:915][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-16.19.09:916][496]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.11-16.19.09:916][496]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-16.19.09:917][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-16.19.09:924][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-16.19.09:938][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-16.19.09:985][496]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.11-16.19.09:985][496]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.11-16.19.09:985][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.11-16.19.09:989][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.11-16.19.10:003][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-16.19.10:011][496]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2024.02.11-16.19.10:104][497]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.02.11-16.20.03:822][991]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.02.11-16.20.03:844][991]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.02.11-16.20.03:862][991]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.02.11-16.20.03:931][992]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.02.11-16.20.10:650][196]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> MyWidget
+[2024.02.11-16.20.10:697][196]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.02.11-16.21.05:489][634]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2024.02.11-16.21.05:501][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-16.21.05:562][634]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-16.21.05:597][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset" SILENT=true
+[2024.02.11-16.21.05:622][634]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2024.02.11-16.21.05:624][634]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Player5D9816884AC71FF0855A949A68C6FDD7.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset'
+[2024.02.11-16.21.05:631][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.11-16.21.05:637][634]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.11-16.21.05:637][634]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget65BA52A843049DD0CE2B829D397E09EF.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.11-16.21.05:668][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 2.14 sec)
+[2024.02.11-16.21.05:677][634]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.11-16.21.05:678][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/BP_Player.BP_Player
+[2024.02.11-16.21.05:678][634]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.11-16.21.16:451][709]BlueprintLog: New page: Compile BP_Player
+[2024.02.11-16.21.16:549][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2024.02.11-16.21.30:062][215]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2024.02.11-16.21.30:074][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-16.21.30:167][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset" SILENT=true
+[2024.02.11-16.21.30:200][215]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2024.02.11-16.21.30:202][215]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Player8EFF25524AE007E218FC969A7321A4FA.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset'
+[2024.02.11-16.21.30:217][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 2.29 sec)
+[2024.02.11-16.21.30:222][215]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.11-16.21.30:222][215]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/BP_Player.BP_Player
+[2024.02.11-16.21.40:058][714]BlueprintLog: New page: Compile BP_Player
+[2024.02.11-16.21.40:174][714]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.02.11-16.21.48:521][982]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.11-16.21.48:529][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-16.21.48:529][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-16.21.48:541][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-16.21.48:541][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-16.21.48:551][982]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.02.11-16.21.49:325][982]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.02.11-16.21.49:339][982]LogSlate: Took 0.012121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.02.11-16.22.08:453][710]BlueprintLog: New page: Compile MyWidget
+[2024.02.11-16.22.08:527][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.02.11-16.22.08:963][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2024.02.11-16.22.08:973][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-16.22.09:049][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.11-16.22.09:056][710]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.11-16.22.09:057][710]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidgetF3E5ABB64805E56F52C4279F8307D5F2.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.11-16.22.09:074][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 2.39 sec)
+[2024.02.11-16.22.09:102][710]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.11-16.22.09:102][710]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.11-16.22.10:426][773]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.11-16.22.10:443][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-16.22.10:443][773]PIE: New page: PIE session: MainLevel (11/02/2024, 16:22:10)
+[2024.02.11-16.22.10:444][773]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.11-16.22.10:453][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009368s)
+[2024.02.11-16.22.10:453][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.009454s)
+[2024.02.11-16.22.10:491][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2024.02.11-16.22.10:494][773]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-16.22.10:494][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-16.22.10:495][773]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.11-16.22.10:496][773]LogPlayLevel: PIE: World Init took: (0.001969s)
+[2024.02.11-16.22.10:496][773]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-16.22.10:496][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-16.22.10:496][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-16.22.10:497][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-16.22.10:497][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-16.22.10:497][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-16.22.10:503][773]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-16.22.10:548][773]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.11-16.22.10:548][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-16.22.10:548][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-16.22.10:548][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-16.22.10:549][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.11-16.22.10:549][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.11-16.22.10:554][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.11-16.22.10:554][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.11-16.22.10:554][773]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.11-16.22.10:554][773]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainLevel'.
+[2024.02.11-16.22.10:554][773]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.11-16.22.10:591][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-16.22.10:591][773]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.11-16.22.10:597][773]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.11-16.22.10
+[2024.02.11-16.22.10:598][773]LogWorld: Bringing up level for play took: 0.005540
+[2024.02.11-16.22.10:604][773]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.02.11-16.22.10:618][773]PIE: Server logged in
+[2024.02.11-16.22.10:621][773]PIE: Play in editor total start time 0,178 seconds.
+[2024.02.11-16.22.10:649][773]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.11-16.22.16:574][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-16.22.16:574][991]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.11-16.22.16:575][991]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.11-16.22.16:589][991]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-16.22.16:590][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-16.22.16:599][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-16.22.16:610][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-16.22.16:651][991]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.11-16.22.16:651][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.11-16.22.16:657][991]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.11-16.22.16:676][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2024.02.11-16.22.16:722][992]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.02.11-16.22.24:527][434]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.02.11-16.23.21:947][742]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.2-29314046+++UE5+Release-5.3
+[2024.02.11-16.23.22:346][742]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.Rocket.Release SessionId={3434685F-47A5-0634-2672-A2B9CF5BEF92}
+[2024.02.11-16.24.42:502][874]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.320 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3115 files in 4336 folders with total size 55 MiB.
+[2024.02.11-16.26.30:971][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.02.11-16.26.30:973][198]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.023
+[2024.02.11-16.26.30:974][198]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Level/MyWidget] ([2] browsable assets)...
+[2024.02.11-16.26.30:977][198]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Level/MyWidget.MyWidget]
+[2024.02.11-16.26.30:977][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/MyWidget]
+[2024.02.11-16.26.30:980][198]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MyWidget_Auto4
+[2024.02.11-16.26.30:980][198]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget_Auto4EBD112DD48A43F3226E402BDDF2802BF.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MyWidget_Auto4.uasset'
+[2024.02.11-16.26.30:982][198]LogFileHelpers: Auto-saving content packages took 0.008
+[2024.02.11-20.32.02:455][841]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.02.11-20.32.02:909][842]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [14520 Seconds] waiting for h/w. InstanceID=1
+[2024.02.11-20.32.02:943][842]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6380
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 0 (Too old connection (14571 seconds idle), disconnect it)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 1 (Connection 7 seems to be dead)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 2 (Closing connection)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 4 (Send failure: Connection was reset)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: 00000BBEDAEFAF00: libcurl info message cache 7 (Closing connection)
+[2024.02.11-20.32.02:951][843]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B727E2D66-4729-7E57-A3D7-16AE33DDFF77%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9c5e02bf47900050cba8f18cafe69c84%7Cd0bd9f9187ec401f954dce1199d36e1e%7Cfb13397f-3189-475b-a89b-174da5eb20f7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.02.11-20.32.03:615][844]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{98f360d2-bb25-4285-bdb5-e861f3eb0c4f}, Name=Speaker / Headphone (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=537.09
+[2024.02.11-20.32.03:615][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.11-20.32.03:619][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.11-20.32.03:793][845]Could not fetch the local adapter addresses
+[2024.02.11-20.32.03:793][845]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2024.02.11-20.32.03:943][845]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.02.12-06.45.05:029][850]LogHttp: Warning: 00000BBEDAEFB900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.02.12-06.45.05:032][850]LogHttp: Warning: 00000BBEDAEFB900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.02.12-06.45.05:032][850]LogHttp: Warning: 00000BBEDAEFB900: libcurl info message cache 1 (Closing connection)
+[2024.02.12-06.45.05:032][850]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B727E2D66-4729-7E57-A3D7-16AE33DDFF77%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9c5e02bf47900050cba8f18cafe69c84%7Cd0bd9f9187ec401f954dce1199d36e1e%7Cfb13397f-3189-475b-a89b-174da5eb20f7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.02.12-06.45.05:300][850]Could not fetch the local adapter addresses
+[2024.02.12-06.45.05:300][850]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2024.02.12-06.45.05:655][851]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.02.12-06.45.07:338][857]LogHttp: Warning: 00000BBEDAEF9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.02.12-06.45.07:338][857]LogHttp: Warning: 00000BBEDAEF9600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.02.12-06.45.07:338][857]LogHttp: Warning: 00000BBEDAEF9600: libcurl info message cache 1 (Closing connection)
+[2024.02.12-06.45.07:338][857]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B727E2D66-4729-7E57-A3D7-16AE33DDFF77%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9c5e02bf47900050cba8f18cafe69c84%7Cd0bd9f9187ec401f954dce1199d36e1e%7Cfb13397f-3189-475b-a89b-174da5eb20f7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.02.12-06.45.07:548][857]Could not fetch the local adapter addresses
+[2024.02.12-06.45.07:548][857]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2024.02.12-06.45.07:659][857]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.02.12-06.45.09:672][863]LogUdpMessaging: Display: Added local interface '192.168.1.233' to multicast group '230.0.0.1:6666'
+[2024.02.12-07.39.34:085][653]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.205 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3115 files in 4336 folders with total size 55 MiB.
+[2024.02.12-08.20.57:910][715]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2024.02.12-08.20.57:913][715]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.094
+[2024.02.12-08.20.57:914][715]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Level/MyWidget] ([2] browsable assets)...
+[2024.02.12-08.20.57:917][715]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Level/MyWidget.MyWidget]
+[2024.02.12-08.20.57:918][715]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/MyWidget]
+[2024.02.12-08.20.57:925][715]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MyWidget_Auto5
+[2024.02.12-08.20.57:925][715]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget_Auto5B8E370E447B80A35FBFDEA9992D3F395.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MyWidget_Auto5.uasset'
+[2024.02.12-08.20.57:926][715]LogFileHelpers: Auto-saving content packages took 0.014
+[2024.02.12-08.23.37:005][ 11]LogEditorTransaction: Undo Move Anchor
+[2024.02.12-08.29.01:110][391]LogSlate: Took 0.017332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.02.12-08.32.03:004][557]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2024.02.12-08.32.03:006][557]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.036
+[2024.02.12-08.32.03:007][557]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Level/MyWidget] ([2] browsable assets)...
+[2024.02.12-08.32.03:009][557]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Level/MyWidget.MyWidget]
+[2024.02.12-08.32.03:009][557]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/MyWidget]
+[2024.02.12-08.32.03:014][557]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MyWidget_Auto6
+[2024.02.12-08.32.03:014][557]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget_Auto649577E464901705DBAA690AF21D4734C.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MyWidget_Auto6.uasset'
+[2024.02.12-08.32.03:015][557]LogFileHelpers: Auto-saving content packages took 0.009
+[2024.02.12-08.39.34:166][ 82]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.285 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3115 files in 4336 folders with total size 55 MiB.
+[2024.02.12-08.40.09:386][187]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-08.40.09:440][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.02.12-08.40.10:461][223]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2024.02.12-08.40.10:469][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-08.40.10:531][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-08.40.10:544][223]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-08.40.10:545][223]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget6448E5024AC25DC029F33F90E293D874.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-08.40.10:555][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 2.47 sec)
+[2024.02.12-08.40.10:558][223]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-08.40.10:558][223]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-08.40.12:165][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.12-08.40.12:183][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.12-08.40.12:183][320]PIE: New page: PIE session: MainLevel (12/02/2024, 08:40:12)
+[2024.02.12-08.40.12:184][320]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-08.40.12:192][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008375s)
+[2024.02.12-08.40.12:192][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.008480s)
+[2024.02.12-08.40.12:216][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.02.12-08.40.12:218][320]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.12-08.40.12:218][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.12-08.40.12:219][320]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.12-08.40.12:219][320]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2024.02.12-08.40.12:220][320]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.12-08.40.12:220][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.12-08.40.12:220][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.12-08.40.12:221][320]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.12-08.40.12:221][320]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.12-08.40.12:221][320]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.12-08.40.12:224][320]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.12-08.40.12:248][320]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.12-08.40.12:249][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.12-08.40.12:249][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.12-08.40.12:249][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.12-08.40.12:251][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.12-08.40.12:251][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.02.12-08.40.12:254][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.12-08.40.12:254][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.12-08.40.12:254][320]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.12-08.40.12:255][320]LogAudio: Display: Audio Device (ID: 18) registered with world 'MainLevel'.
+[2024.02.12-08.40.12:255][320]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.12-08.40.12:304][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-08.40.12:304][320]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.12-08.40.12:307][320]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.12-08.40.12
+[2024.02.12-08.40.12:308][320]LogWorld: Bringing up level for play took: 0.002949
+[2024.02.12-08.40.12:318][320]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.02.12-08.40.12:330][320]PIE: Server logged in
+[2024.02.12-08.40.12:333][320]PIE: Play in editor total start time 0,15 seconds.
+[2024.02.12-08.40.12:356][320]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.12-08.44.55:413][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-08.44.55:413][951]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-08.44.55:419][951]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.12-08.44.55:429][951]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.12-08.44.55:430][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-08.44.55:445][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.12-08.44.55:457][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-08.44.55:504][951]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.12-08.44.55:504][951]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.12-08.44.55:505][951]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.12-08.44.55:512][951]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.12-08.44.55:540][951]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2024.02.12-08.44.55:596][952]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.02.12-08.45.05:078][263]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick_C
+[2024.02.12-08.45.05:078][263]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick_C
+[2024.02.12-08.45.05:088][263]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick as actor: BP_EnemyUsingTick_C /Game/Level/MainLevel.MainLevel:PersistentLevel.BP_EnemyUsingTick_C_0
+[2024.02.12-08.45.05:095][263]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick as actor: BP_EnemyUsingTick_C /Game/Level/MainLevel.MainLevel:PersistentLevel.BP_EnemyUsingTick_C_0
+[2024.02.12-08.45.05:112][263]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.02.12-08.45.05:862][282]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick_C
+[2024.02.12-08.45.05:862][282]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick_C
+[2024.02.12-08.45.05:869][282]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick as actor: BP_EnemyUsingTick_C /Game/Level/MainLevel.MainLevel:PersistentLevel.BP_EnemyUsingTick_C_1
+[2024.02.12-08.45.05:874][282]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/BP_EnemyUsingTick.BP_EnemyUsingTick as actor: BP_EnemyUsingTick_C /Game/Level/MainLevel.MainLevel:PersistentLevel.BP_EnemyUsingTick_C_1
+[2024.02.12-08.45.22:116][731]Cmd: DELETE
+[2024.02.12-08.45.22:116][731]Cmd: ACTOR DELETE
+[2024.02.12-08.45.22:148][731]LogEditorActor: Deleted Actor: BP_EnemyUsingTick_C
+[2024.02.12-08.45.22:184][731]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2024.02.12-08.45.22:189][731]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2024.02.12-08.46.46:434][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.02.12-08.46.46:477][204]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MainLevel_Auto7
+[2024.02.12-08.46.46:479][204]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MainLevel_Auto71D08241D48B3CD2C397F0CB995344C3A.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MainLevel_Auto7.umap'
+[2024.02.12-08.46.46:485][204]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MainLevel_Auto7.umap is in the /Temp path, will not scan.
+[2024.02.12-08.46.46:486][204]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.087
+[2024.02.12-08.46.46:486][204]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.087
+[2024.02.12-08.57.31:911][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2024.02.12-08.57.31:914][154]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.037
+[2024.02.12-08.57.31:914][154]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Level/MyWidget] ([2] browsable assets)...
+[2024.02.12-08.57.31:919][154]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Level/MyWidget.MyWidget]
+[2024.02.12-08.57.31:919][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/MyWidget]
+[2024.02.12-08.57.31:928][154]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MyWidget_Auto8
+[2024.02.12-08.57.31:928][154]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget_Auto8771AC9784C921EC70E09E6868849AA15.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MyWidget_Auto8.uasset'
+[2024.02.12-08.57.31:930][154]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.02.12-08.59.33:591][320]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.12-09.02.25:381][329]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2024.02.12-09.02.25:396][329]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.02.25:577][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.02.12-09.02.25:612][329]LogSavePackage: Moving output files for package: /Game/Level/MainLevel
+[2024.02.12-09.02.25:614][329]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MainLevel72321E9A49952D293EC1A38CAC61CA90.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MainLevel.umap'
+[2024.02.12-09.02.25:637][329]LogFileHelpers: Saving map 'MainLevel' took 0.176
+[2024.02.12-09.02.25:706][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset" SILENT=true
+[2024.02.12-09.02.25:739][329]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2024.02.12-09.02.25:741][329]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Player03B59AE84F649E74D5DB09864BC7AE3C.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset'
+[2024.02.12-09.02.25:750][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.02.25:769][329]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.02.25:771][329]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget9BE444C248024F872DE6E8A94EF0EA4B.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.02.25:789][329]LogFileHelpers: InternalPromptForCheckoutAndSave took 392 ms (total: 2.86 sec)
+[2024.02.12-09.02.25:796][329]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.12-09.02.25:796][329]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainLevel.MainLevel
+[2024.02.12-09.02.25:796][329]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/BP_Player.BP_Player
+[2024.02.12-09.02.25:796][329]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.02.48:341][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2024.02.12-09.02.48:359][126]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.02.48:428][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.02.48:463][126]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.02.48:465][126]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidgetE2685C144FF52ED79C0E4DB47082EA06.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.02.48:482][126]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 2.99 sec)
+[2024.02.12-09.02.48:505][126]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.02.48:505][126]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.02.48:842][143]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.02.48:870][143]LogBlueprint: Error: [AssetLog] C:\dev\unreal\Udemy\unreal-engine-5-the-complete-beginners-course\BeginnersCourse\Content\Level\MyWidget.uasset: [Compiler] The property associated with  Orbs Collected  could not be found in '/Game/Level/MyWidget.MyWidget_C'
+[2024.02.12-09.02.48:953][143]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2024.02.12-09.02.59:159][554]BlueprintLog: New page: Compile BP_Player
+[2024.02.12-09.02.59:313][554]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2024.02.12-09.03.02:116][681]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.03.02:237][681]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2024.02.12-09.03.03:438][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2024.02.12-09.03.19:992][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2024.02.12-09.03.20:004][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.03.20:083][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset" SILENT=true
+[2024.02.12-09.03.20:108][281]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2024.02.12-09.03.20:110][281]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Player496F1A6D4A56B63F55CB6CA92F6FDB30.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset'
+[2024.02.12-09.03.20:129][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 3.11 sec)
+[2024.02.12-09.03.20:133][281]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.12-09.03.20:133][281]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/BP_Player.BP_Player
+[2024.02.12-09.03.20:597][300]BlueprintLog: New page: Compile BP_Player
+[2024.02.12-09.03.20:703][300]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2024.02.12-09.03.30:655][794]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2024.02.12-09.03.30:669][794]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.03.30:742][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset" SILENT=true
+[2024.02.12-09.03.30:768][794]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2024.02.12-09.03.30:770][794]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Player1E1366BF4E1987799E3397A733D1FC45.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Player/BP_Player.uasset'
+[2024.02.12-09.03.30:786][794]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 3.23 sec)
+[2024.02.12-09.03.30:789][794]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.12-09.03.30:789][794]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player/BP_Player.BP_Player
+[2024.02.12-09.03.31:353][818]BlueprintLog: New page: Compile BP_Player
+[2024.02.12-09.03.31:457][818]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2024.02.12-09.08.42:795][945]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.12-09.09.13:506][621]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.12-09.09.20:610][ 43]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.12-09.09.29:904][597]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2024.02.12-09.09.29:913][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.09.29:981][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.09.29:991][597]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.09.29:992][597]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget7C7CB09D47D236ECA198B9B046F51F28.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.09.30:000][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 3.32 sec)
+[2024.02.12-09.09.30:005][597]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.09.30:005][597]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.09.30:120][605]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.09.30:190][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.02.12-09.09.31:421][646]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.12-09.09.31:430][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.12-09.09.31:430][646]PIE: New page: PIE session: MainLevel (12/02/2024, 09:09:31)
+[2024.02.12-09.09.31:430][646]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.09.31:438][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007693s)
+[2024.02.12-09.09.31:438][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.007741s)
+[2024.02.12-09.09.31:468][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2024.02.12-09.09.31:471][646]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.12-09.09.31:472][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.12-09.09.31:472][646]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.12-09.09.31:473][646]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2024.02.12-09.09.31:473][646]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.12-09.09.31:473][646]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.12-09.09.31:473][646]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.12-09.09.31:473][646]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.12-09.09.31:474][646]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.12-09.09.31:474][646]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.12-09.09.31:476][646]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.12-09.09.31:498][646]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.12-09.09.31:498][646]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.12-09.09.31:498][646]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.12-09.09.31:498][646]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.12-09.09.31:499][646]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.02.12-09.09.31:499][646]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.02.12-09.09.31:501][646]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.02.12-09.09.31:502][646]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.02.12-09.09.31:502][646]LogInit: FAudioDevice initialized with ID 19.
+[2024.02.12-09.09.31:502][646]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainLevel'.
+[2024.02.12-09.09.31:502][646]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.12-09.09.31:557][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.09.31:557][646]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.12-09.09.31:560][646]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.12-09.09.31
+[2024.02.12-09.09.31:561][646]LogWorld: Bringing up level for play took: 0.002825
+[2024.02.12-09.09.31:564][646]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.02.12-09.09.31:576][646]PIE: Server logged in
+[2024.02.12-09.09.31:578][646]PIE: Play in editor total start time 0,149 seconds.
+[2024.02.12-09.09.31:597][646]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.12-09.09.34:895][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.09.34:895][762]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.09.34:899][762]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.12-09.09.34:904][762]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.12-09.09.34:905][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.09.34:910][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.12-09.09.34:925][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.09.34:965][762]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.12-09.09.34:965][762]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.12-09.09.34:965][762]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.12-09.09.34:969][762]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.12-09.09.34:992][762]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2024.02.12-09.09.35:037][763]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.02.12-09.10.02:259][845]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.12-09.10.53:221][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2024.02.12-09.10.53:232][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.10.53:309][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.10.53:333][ 73]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.10.53:335][ 73]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget8ECC2C0A43AB9D31E7370A868D7CA4B5.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.10.53:349][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 3.43 sec)
+[2024.02.12-09.10.53:354][ 73]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.10.53:354][ 73]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.10.53:605][ 89]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.10.53:720][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2024.02.12-09.11.20:669][129]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2024.02.12-09.11.20:682][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.11.20:752][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.11.20:778][129]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.11.20:780][129]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidgetC6AD4EEB40CCE4BF67ADB88CE2381D7C.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.11.20:796][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 3.55 sec)
+[2024.02.12-09.11.20:801][129]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.11.20:801][129]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.11.25:885][279]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.12-09.11.25:903][279]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.12-09.11.25:906][279]LogPlayLevel: [PlayLevel] Compiling MyWidget before play...
+[2024.02.12-09.11.26:144][279]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2024.02.12-09.11.26:146][279]LogPlayLevel: PlayLevel: Blueprint regeneration took 242 ms (1 blueprints)
+[2024.02.12-09.11.26:146][279]PIE: New page: PIE session: MainLevel (12/02/2024, 09:11:26)
+[2024.02.12-09.11.26:146][279]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.11.26:155][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009671s)
+[2024.02.12-09.11.26:155][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.009740s)
+[2024.02.12-09.11.26:187][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2024.02.12-09.11.26:189][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.12-09.11.26:189][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.12-09.11.26:190][279]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.12-09.11.26:190][279]LogPlayLevel: PIE: World Init took: (0.001790s)
+[2024.02.12-09.11.26:191][279]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.12-09.11.26:191][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.12-09.11.26:191][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.12-09.11.26:192][279]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.12-09.11.26:192][279]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.12-09.11.26:192][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.12-09.11.26:198][279]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.12-09.11.26:242][279]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.12-09.11.26:243][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.12-09.11.26:243][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.12-09.11.26:243][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.12-09.11.26:246][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.02.12-09.11.26:246][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.02.12-09.11.26:250][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.02.12-09.11.26:250][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.02.12-09.11.26:250][279]LogInit: FAudioDevice initialized with ID 20.
+[2024.02.12-09.11.26:250][279]LogAudio: Display: Audio Device (ID: 20) registered with world 'MainLevel'.
+[2024.02.12-09.11.26:250][279]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.12-09.11.26:294][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.11.26:294][279]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.12-09.11.26:298][279]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.12-09.11.26
+[2024.02.12-09.11.26:299][279]LogWorld: Bringing up level for play took: 0.004146
+[2024.02.12-09.11.26:308][279]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.02.12-09.11.26:321][279]PIE: Server logged in
+[2024.02.12-09.11.26:323][279]PIE: Play in editor total start time 0,421 seconds.
+[2024.02.12-09.11.26:511][279]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.12-09.11.30:650][427]LogBlueprintUserMessages: [BP_Player_C_0] 90.0
+[2024.02.12-09.11.31:667][467]LogBlueprintUserMessages: [BP_Player_C_0] 85.0
+[2024.02.12-09.11.32:662][506]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.12-09.11.33:415][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.11.33:415][534]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.11.33:418][534]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.12-09.11.33:430][534]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.12-09.11.33:431][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.11.33:435][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.12-09.11.33:454][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.11.33:504][534]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.12-09.11.33:504][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.12-09.11.33:509][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.12-09.11.33:531][534]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2024.02.12-09.11.33:645][535]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.02.12-09.12.33:730][832]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.12-09.13.32:362][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.02.12-09.13.32:368][431]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/MainLevel' took 0.046
+[2024.02.12-09.13.32:368][431]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Level/MyWidget] ([2] browsable assets)...
+[2024.02.12-09.13.32:372][431]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Level/MyWidget.MyWidget]
+[2024.02.12-09.13.32:372][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/MyWidget]
+[2024.02.12-09.13.32:383][431]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Level/MyWidget_Auto9
+[2024.02.12-09.13.32:383][431]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget_Auto99DCBFE6E4FE1CC84CF036299B07C7E47.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/Autosaves/Game/Level/MyWidget_Auto9.uasset'
+[2024.02.12-09.13.32:385][431]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.02.12-09.13.55:394][199]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.13.55:444][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.02.12-09.13.56:613][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.02.12-09.13.56:622][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.13.56:679][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.13.56:691][238]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.13.56:691][238]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget9CA9C19A463509C0143D51B4AE346C8F.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.13.56:704][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 3.63 sec)
+[2024.02.12-09.13.56:706][238]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.13.56:706][238]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.13.57:453][284]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.12-09.13.57:462][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.12-09.13.57:462][284]PIE: New page: PIE session: MainLevel (12/02/2024, 09:13:57)
+[2024.02.12-09.13.57:462][284]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.13.57:473][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010802s)
+[2024.02.12-09.13.57:473][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.010844s)
+[2024.02.12-09.13.57:500][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2024.02.12-09.13.57:501][284]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.12-09.13.57:501][284]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.12-09.13.57:501][284]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.12-09.13.57:502][284]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2024.02.12-09.13.57:502][284]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.12-09.13.57:502][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.12-09.13.57:502][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.12-09.13.57:503][284]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.12-09.13.57:503][284]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.12-09.13.57:503][284]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.12-09.13.57:505][284]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.12-09.13.57:527][284]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.12-09.13.57:528][284]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.12-09.13.57:528][284]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.12-09.13.57:528][284]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.12-09.13.57:529][284]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.02.12-09.13.57:529][284]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.02.12-09.13.57:531][284]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.02.12-09.13.57:531][284]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.02.12-09.13.57:531][284]LogInit: FAudioDevice initialized with ID 21.
+[2024.02.12-09.13.57:531][284]LogAudio: Display: Audio Device (ID: 21) registered with world 'MainLevel'.
+[2024.02.12-09.13.57:531][284]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.02.12-09.13.57:592][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.13.57:592][284]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.12-09.13.57:594][284]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.12-09.13.57
+[2024.02.12-09.13.57:595][284]LogWorld: Bringing up level for play took: 0.002434
+[2024.02.12-09.13.57:599][284]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.02.12-09.13.57:610][284]PIE: Server logged in
+[2024.02.12-09.13.57:612][284]PIE: Play in editor total start time 0,15 seconds.
+[2024.02.12-09.13.57:630][284]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.12-09.14.00:380][383]LogBlueprintUserMessages: [BP_Player_C_0] 90.0
+[2024.02.12-09.14.01:383][426]LogBlueprintUserMessages: [BP_Player_C_0] 85.0
+[2024.02.12-09.14.02:391][469]LogBlueprintUserMessages: [BP_Player_C_0] 80.0
+[2024.02.12-09.14.03:396][512]LogBlueprintUserMessages: [BP_Player_C_0] 75.0
+[2024.02.12-09.14.04:399][555]LogBlueprintUserMessages: [BP_Player_C_0] 70.0
+[2024.02.12-09.14.05:381][597]LogBlueprintUserMessages: [BP_Player_C_0] 65.0
+[2024.02.12-09.14.06:384][640]LogBlueprintUserMessages: [BP_Player_C_0] 60.0
+[2024.02.12-09.14.07:389][683]LogBlueprintUserMessages: [BP_Player_C_0] 55.0
+[2024.02.12-09.14.07:646][694]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.12-09.14.08:944][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.14.08:945][748]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.14.08:949][748]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.12-09.14.08:956][748]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.12-09.14.08:956][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.14.08:960][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.12-09.14.08:976][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.14.09:006][748]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.02.12-09.14.09:006][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.02.12-09.14.09:008][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.02.12-09.14.09:022][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.02.12-09.14.09:053][749]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.02.12-09.14.54:520][285]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.14.54:601][285]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2024.02.12-09.15.19:241][531]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2024.02.12-09.15.19:252][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.15.19:320][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.15.19:344][531]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.15.19:346][531]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidget79B69AF44A682969910D6FAAC10740D1.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.15.19:361][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 3.74 sec)
+[2024.02.12-09.15.19:363][531]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.15.19:363][531]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.15.19:769][557]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.15.19:850][557]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2024.02.12-09.15.20:971][609]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.12-09.15.20:990][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.12-09.15.20:990][609]PIE: New page: PIE session: MainLevel (12/02/2024, 09:15:20)
+[2024.02.12-09.15.20:996][609]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.15.21:006][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011234s)
+[2024.02.12-09.15.21:006][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.011309s)
+[2024.02.12-09.15.21:049][609]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2024.02.12-09.15.21:052][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.12-09.15.21:052][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.12-09.15.21:053][609]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.12-09.15.21:053][609]LogPlayLevel: PIE: World Init took: (0.001815s)
+[2024.02.12-09.15.21:054][609]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.12-09.15.21:054][609]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.12-09.15.21:054][609]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.12-09.15.21:055][609]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.12-09.15.21:055][609]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.12-09.15.21:055][609]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.12-09.15.21:060][609]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.12-09.15.21:108][609]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.12-09.15.21:109][609]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.12-09.15.21:109][609]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.12-09.15.21:109][609]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.12-09.15.21:110][609]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.02.12-09.15.21:110][609]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.02.12-09.15.21:115][609]LogInit: FAudioDevice initialized with ID 22.
+[2024.02.12-09.15.21:115][609]LogAudio: Display: Audio Device (ID: 22) registered with world 'MainLevel'.
+[2024.02.12-09.15.21:115][609]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.02.12-09.15.21:115][609]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.02.12-09.15.21:115][609]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.12-09.15.21:180][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.15.21:181][609]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.12-09.15.21:188][609]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.12-09.15.21
+[2024.02.12-09.15.21:188][609]LogWorld: Bringing up level for play took: 0.006718
+[2024.02.12-09.15.21:193][609]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.02.12-09.15.21:209][609]PIE: Server logged in
+[2024.02.12-09.15.21:210][609]PIE: Play in editor total start time 0,221 seconds.
+[2024.02.12-09.15.21:226][609]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.12-09.15.22:962][665]LogBlueprintUserMessages: [BP_Player_C_0] 90.0
+[2024.02.12-09.15.23:965][709]LogBlueprintUserMessages: [BP_Player_C_0] 85.0
+[2024.02.12-09.15.24:973][753]LogBlueprintUserMessages: [BP_Player_C_0] 80.0
+[2024.02.12-09.15.25:979][797]LogBlueprintUserMessages: [BP_Player_C_0] 75.0
+[2024.02.12-09.15.26:978][841]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.12-09.15.27:695][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.15.27:695][869]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.15.27:698][869]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.12-09.15.27:711][869]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.12-09.15.27:712][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.15.27:725][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.12-09.15.27:737][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.15.27:785][869]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.12-09.15.27:785][869]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.12-09.15.27:785][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.12-09.15.27:795][869]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.12-09.15.27:816][869]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2024.02.12-09.15.27:855][870]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.02.12-09.15.35:435][217]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2024.02.12-09.15.35:446][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.12-09.15.35:522][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/MyWidget" FILE="../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset" SILENT=true
+[2024.02.12-09.15.35:546][217]LogSavePackage: Moving output files for package: /Game/Level/MyWidget
+[2024.02.12-09.15.35:548][217]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MyWidgetE1459DF34C81594EBC2315A93BF8E128.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MyWidget.uasset'
+[2024.02.12-09.15.35:562][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 3.85 sec)
+[2024.02.12-09.15.35:566][217]AssetCheck: New page: Asset Save: MyWidget
+[2024.02.12-09.15.35:566][217]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Level/MyWidget.MyWidget
+[2024.02.12-09.15.36:161][246]BlueprintLog: New page: Compile MyWidget
+[2024.02.12-09.15.36:236][246]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2024.02.12-09.15.37:809][278]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.12-09.15.37:826][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.12-09.15.37:826][278]PIE: New page: PIE session: MainLevel (12/02/2024, 09:15:37)
+[2024.02.12-09.15.37:830][278]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.15.37:840][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009610s)
+[2024.02.12-09.15.37:840][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.009695s)
+[2024.02.12-09.15.37:874][278]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2024.02.12-09.15.37:878][278]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.12-09.15.37:878][278]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.12-09.15.37:879][278]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.12-09.15.37:879][278]LogPlayLevel: PIE: World Init took: (0.001850s)
+[2024.02.12-09.15.37:880][278]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.12-09.15.37:880][278]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.12-09.15.37:880][278]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.12-09.15.37:881][278]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.12-09.15.37:881][278]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.12-09.15.37:881][278]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.12-09.15.37:885][278]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.12-09.15.37:929][278]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.12-09.15.37:929][278]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.12-09.15.37:929][278]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.12-09.15.37:929][278]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.12-09.15.37:931][278]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.02.12-09.15.37:931][278]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.02.12-09.15.37:935][278]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.02.12-09.15.37:935][278]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.02.12-09.15.37:935][278]LogInit: FAudioDevice initialized with ID 23.
+[2024.02.12-09.15.37:935][278]LogAudio: Display: Audio Device (ID: 23) registered with world 'MainLevel'.
+[2024.02.12-09.15.37:935][278]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.02.12-09.15.37:993][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.15.37:993][278]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.12-09.15.37:997][278]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.12-09.15.37
+[2024.02.12-09.15.37:997][278]LogWorld: Bringing up level for play took: 0.003146
+[2024.02.12-09.15.38:006][278]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.02.12-09.15.38:022][278]PIE: Server logged in
+[2024.02.12-09.15.38:026][278]PIE: Play in editor total start time 0,2 seconds.
+[2024.02.12-09.15.38:058][278]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.12-09.15.39:578][311]LogBlueprintUserMessages: [BP_Player_C_0] 90.0
+[2024.02.12-09.15.40:596][346]LogBlueprintUserMessages: [BP_Player_C_0] 85.0
+[2024.02.12-09.15.41:593][376]LogBlueprintUserMessages: [BP_Player_C_0] 80.0
+[2024.02.12-09.15.42:601][413]LogBlueprintUserMessages: [BP_Player_C_0] 75.0
+[2024.02.12-09.15.43:595][449]LogBlueprintUserMessages: [BP_Player_C_0] 70.0
+[2024.02.12-09.15.44:580][484]LogBlueprintUserMessages: [BP_Player_C_0] 65.0
+[2024.02.12-09.15.45:595][522]LogBlueprintUserMessages: [BP_Player_C_0] 60.0
+[2024.02.12-09.15.46:593][559]LogBlueprintUserMessages: [BP_Player_C_0] 55.0
+[2024.02.12-09.15.47:590][596]LogBlueprintUserMessages: [BP_Player_C_0] 50.0
+[2024.02.12-09.15.48:603][633]LogBlueprintUserMessages: [BP_Player_C_0] 45.0
+[2024.02.12-09.15.49:253][657]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.12-09.15.51:456][737]LogBlueprintUserMessages: [BP_Player_C_0] 35.0
+[2024.02.12-09.15.52:111][761]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.12-09.15.53:203][801]LogBlueprintUserMessages: [BP_Player_C_0] 25.0
+[2024.02.12-09.15.54:228][839]LogBlueprintUserMessages: [BP_Player_C_0] 20.0
+[2024.02.12-09.15.55:221][876]LogBlueprintUserMessages: [BP_Player_C_0] 15.0
+[2024.02.12-09.15.56:217][913]LogBlueprintUserMessages: [BP_Player_C_0] 10.0
+[2024.02.12-09.15.57:213][950]LogBlueprintUserMessages: [BP_Player_C_0] 5.0
+[2024.02.12-09.15.58:217][987]LogBlueprintUserMessages: [BP_Player_C_0] 0.0
+[2024.02.12-09.15.58:217][987]LogBlueprintUserMessages: [BP_Enemy_DPS_C_1] End overlap
+[2024.02.12-09.15.58:232][987]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:232][987]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:242][987]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:242][987]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:259][988]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:260][988]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:270][988]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:270][988]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:289][989]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:289][989]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:298][989]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:298][989]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:314][990]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:314][990]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:322][990]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:322][990]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:341][991]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:341][991]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:351][991]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:351][991]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:368][992]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:368][992]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:381][992]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:382][992]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:398][993]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:398][993]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:405][993]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:405][993]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:428][994]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:Get_Amount_Text:0027
+[2024.02.12-09.15.58:428][994]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:440][994]LogScript: Warning: Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)
+	MyWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.MyWidget_C_0
+	Function /Game/Level/MyWidget.MyWidget_C:GetPercent:0027
+[2024.02.12-09.15.58:440][994]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:455][995]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:463][995]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:483][996]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:493][996]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:510][997]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:521][997]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:536][998]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:545][998]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:564][999]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:573][999]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:591][  0]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:599][  0]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:621][  1]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:632][  1]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:648][  2]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:656][  2]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:676][  3]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:688][  3]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:703][  4]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:711][  4]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:730][  5]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:740][  5]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:756][  6]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:764][  6]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:783][  7]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:793][  7]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:810][  8]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:817][  8]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:835][  9]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:845][  9]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:862][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:870][ 10]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:890][ 11]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:900][ 11]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:916][ 12]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:923][ 12]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:943][ 13]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:953][ 13]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:970][ 14]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.58:981][ 14]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.58:997][ 15]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:005][ 15]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:024][ 16]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:031][ 16]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:053][ 17]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:063][ 17]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:079][ 18]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:087][ 18]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:110][ 19]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:121][ 19]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:137][ 20]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:145][ 20]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:164][ 21]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:174][ 21]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:190][ 22]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:197][ 22]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:221][ 23]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:231][ 23]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:248][ 24]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:258][ 24]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:274][ 25]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:282][ 25]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:300][ 26]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:312][ 26]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:329][ 27]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:336][ 27]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:354][ 28]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:364][ 28]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:382][ 29]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:390][ 29]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:407][ 30]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:418][ 30]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:436][ 31]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:446][ 31]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:463][ 32]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:472][ 32]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:490][ 33]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:498][ 33]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:517][ 34]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:527][ 34]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:544][ 35]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:552][ 35]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:570][ 36]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:582][ 36]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:599][ 37]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:606][ 37]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:628][ 38]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:639][ 38]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:654][ 39]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:662][ 39]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:682][ 40]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:691][ 40]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:707][ 41]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:715][ 41]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:734][ 42]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:744][ 42]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:762][ 43]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:770][ 43]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:787][ 44]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:795][ 44]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:815][ 45]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:824][ 45]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:841][ 46]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:848][ 46]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:868][ 47]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:878][ 47]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:894][ 48]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:902][ 48]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:924][ 49]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:935][ 49]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:951][ 50]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:959][ 50]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:977][ 51]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.15.59:988][ 51]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.15.59:991][ 52]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.15.59:991][ 52]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:009][ 52]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:024][ 52]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:029][ 53]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:029][ 53]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:043][ 53]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:053][ 53]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:058][ 54]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:058][ 54]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:072][ 54]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:082][ 54]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:085][ 55]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:085][ 55]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:104][ 55]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:114][ 55]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:117][ 56]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:118][ 56]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:133][ 56]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:142][ 56]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:146][ 57]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:146][ 57]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:161][ 57]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:171][ 57]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:175][ 58]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:175][ 58]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:188][ 58]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:197][ 58]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:202][ 59]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:202][ 59]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:218][ 59]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:228][ 59]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:231][ 60]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:232][ 60]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:248][ 60]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:258][ 60]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:262][ 61]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:262][ 61]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:276][ 61]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:286][ 61]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:292][ 62]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:292][ 62]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:304][ 62]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:314][ 62]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:317][ 63]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:317][ 63]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:331][ 63]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:341][ 63]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:344][ 64]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Yaw Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:345][ 64]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Add Controller Pitch Input Graph:  EventGraph Function:  Execute Ubergraph BP Player Controller Blueprint:  BP_PlayerController
+[2024.02.12-09.16.00:358][ 64]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:367][ 64]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:385][ 65]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:393][ 65]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:412][ 66]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:422][ 66]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:438][ 67]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:450][ 67]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:466][ 68]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:474][ 68]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:492][ 69]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:502][ 69]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:519][ 70]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:529][ 70]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:547][ 71]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:558][ 71]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:573][ 72]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:581][ 72]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:602][ 73]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:612][ 73]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:631][ 74]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:641][ 74]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:656][ 75]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:665][ 75]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:687][ 76]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:699][ 76]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:715][ 77]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:723][ 77]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:742][ 78]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:753][ 78]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:770][ 79]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:780][ 79]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:797][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:805][ 80]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:822][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:831][ 81]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:850][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:858][ 82]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:878][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:888][ 83]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:904][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:912][ 84]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:931][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:942][ 85]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:956][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:966][ 86]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.00:985][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.00:995][ 87]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:011][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:019][ 88]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:036][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:048][ 89]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:065][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:074][ 90]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:092][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:099][ 91]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:118][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:128][ 92]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:145][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:152][ 93]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:171][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:183][ 94]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:199][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:207][ 95]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:225][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:233][ 96]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:256][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:266][ 97]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:284][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:295][ 98]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:311][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:318][ 99]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:336][100]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:347][100]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:364][101]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:371][101]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:389][102]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:401][102]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:416][103]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:423][103]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:442][104]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:452][104]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:468][105]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:476][105]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:495][106]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:506][106]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:520][107]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:530][107]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:549][108]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:560][108]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:579][109]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:589][109]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:605][110]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:613][110]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:634][111]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:644][111]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:660][112]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:668][112]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:688][113]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:698][113]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:714][114]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:722][114]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:740][115]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:751][115]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:767][116]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:775][116]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:794][117]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_Amount_Text Function:  Get Amount Text Blueprint:  MyWidget
+[2024.02.12-09.16.01:804][117]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Player_C_0 via property MyCharacter, but BP_Player_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  GetPercent Function:  Get Percent Blueprint:  MyWidget
+[2024.02.12-09.16.01:835][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.12-09.16.01:835][118]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.12-09.16.01:837][118]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.12-09.16.01:847][118]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.12-09.16.01:847][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.16.01:852][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.12-09.16.01:868][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.12-09.16.01:919][118]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.12-09.16.01:920][118]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.02.12-09.16.01:920][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.02.12-09.16.01:923][118]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.02.12-09.16.01:949][118]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2024.02.12-09.16.02:098][119]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.02.12-09.17.01:480][427]LogEditorTransaction: Undo Delete current selection
+[2024.02.12-09.18.13:666][816]BlueprintLog: New page: Compile BP_Player
+[2024.02.12-09.18.13:726][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2024.02.12-09.18.15:468][886]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
