@@ -5166,3 +5166,187 @@ BUILD FAILED
 [2024.02.17-07.31.42:170][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
 [2024.02.17-07.31.42:192][481]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
 [2024.02.17-07.31.42:384][482]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2024.02.17-07.51.53:818][234]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.282 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3176 files in 4420 folders with total size 56 MiB.
+[2024.02.17-08.51.54:716][ 35]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.179 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3176 files in 4420 folders with total size 56 MiB.
+[2024.02.17-09.51.53:721][830]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.183 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3176 files in 4420 folders with total size 56 MiB.
+[2024.02.17-10.51.53:752][627]LogDerivedDataCache: C:/Users/Rafael/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.214 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 3176 files in 4420 folders with total size 56 MiB.
+[2024.02.17-11.07.44:705][912]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Level/Actors/SM_Base.SM_Base
+[2024.02.17-11.07.44:716][912]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-11.07.44:716][912]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-11.07.45:641][912]LogViewport: Scene viewport resized to 1405x912, mode Windowed.
+[2024.02.17-11.09.30:735][518]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2024.02.17-11.09.30:752][518]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-11.09.30:835][518]LogSavePackage: Moving output files for package: /Game/Level/Actors/SM_Base
+[2024.02.17-11.09.30:837][518]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/SM_BaseC5F223E6452A9C914E857392E2388A6B.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/Actors/SM_Base.uasset'
+[2024.02.17-11.09.30:853][518]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 15.3 sec)
+[2024.02.17-11.09.30:857][518]AssetCheck: New page: Asset Save: SM_Base
+[2024.02.17-11.09.30:857][518]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/Actors/SM_Base.SM_Base
+[2024.02.17-11.09.33:653][580]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.17-11.09.33:675][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.17-11.09.33:675][580]PIE: New page: PIE session: MainLevel (17/02/2024, 11:09:33)
+[2024.02.17-11.09.33:679][580]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.17-11.09.33:690][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010734s)
+[2024.02.17-11.09.33:690][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.010818s)
+[2024.02.17-11.09.33:724][580]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2024.02.17-11.09.33:726][580]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-11.09.33:726][580]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-11.09.33:727][580]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.17-11.09.33:728][580]LogPlayLevel: PIE: World Init took: (0.001873s)
+[2024.02.17-11.09.33:728][580]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.02.17-11.09.33:728][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.17-11.09.33:728][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.17-11.09.33:728][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.17-11.09.33:729][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.17-11.09.33:729][580]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.17-11.09.33:729][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.17-11.09.33:729][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.17-11.09.33:729][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.17-11.09.33:729][580]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.17-11.09.33:729][580]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.17-11.09.33:729][580]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.17-11.09.33:734][580]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.17-11.09.33:785][580]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.17-11.09.33:787][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.17-11.09.33:787][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.17-11.09.33:787][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.17-11.09.33:794][580]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.02.17-11.09.33:794][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.02.17-11.09.33:798][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.02.17-11.09.33:798][580]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.02.17-11.09.33:798][580]LogInit: FAudioDevice initialized with ID 45.
+[2024.02.17-11.09.33:798][580]LogAudio: Display: Audio Device (ID: 45) registered with world 'MainLevel'.
+[2024.02.17-11.09.33:798][580]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2024.02.17-11.09.33:880][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.17-11.09.33:880][580]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.17-11.09.33:894][580]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.17-11.09.33
+[2024.02.17-11.09.33:895][580]LogWorld: Bringing up level for play took: 0.013161
+[2024.02.17-11.09.33:901][580]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.02.17-11.09.33:951][580]PIE: Server logged in
+[2024.02.17-11.09.33:958][580]PIE: Play in editor total start time 0,283 seconds.
+[2024.02.17-11.09.34:555][580]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.17-11.09.34:602][581]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.099077 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.02.17-11.09.36:125][637]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.09.40:237][800]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.09.42:787][902]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.09.46:425][ 48]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.09.55:138][413]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.09.58:934][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.17-11.09.58:934][566]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.17-11.09.58:934][566]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.17-11.09.58:949][566]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.17-11.09.58:949][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-11.09.58:963][566]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.17-11.09.58:973][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-11.09.59:036][566]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2024.02.17-11.09.59:036][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.02.17-11.09.59:041][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.02.17-11.09.59:068][566]LogUObjectHash: Compacting FUObjectHashTables data took   7.05ms
+[2024.02.17-11.09.59:314][567]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.02.17-11.12.06:495][392]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Level/Actors/SM_Puzzle.SM_Puzzle
+[2024.02.17-11.12.06:513][392]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-11.12.06:513][392]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-11.12.08:426][392]LogViewport: Scene viewport resized to 1405x912, mode Windowed.
+[2024.02.17-11.12.32:752][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2024.02.17-11.12.32:763][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-11.12.32:850][ 10]LogSavePackage: Moving output files for package: /Game/Level/Actors/SM_Puzzle
+[2024.02.17-11.12.32:852][ 10]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/SM_Puzzle97805FED4F946B68AB1C40AC4B1AFC73.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/Actors/SM_Puzzle.uasset'
+[2024.02.17-11.12.32:869][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 15.4 sec)
+[2024.02.17-11.12.32:872][ 10]AssetCheck: New page: Asset Save: SM_Puzzle
+[2024.02.17-11.12.32:872][ 10]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Level/Actors/SM_Puzzle.SM_Puzzle
+[2024.02.17-11.12.34:726][ 44]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.02.17-11.12.34:726][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-11.12.57:502][317]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2024.02.17-11.12.57:517][317]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-11.12.57:616][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-11.12.57:740][317]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2024.02.17-11.12.57:783][317]LogSavePackage: Moving output files for package: /Game/Level/MainLevel
+[2024.02.17-11.12.57:785][317]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MainLevel62D758514BBA99C9D05C08BBF1275D7C.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MainLevel.umap'
+[2024.02.17-11.12.57:807][317]LogFileHelpers: Saving map 'MainLevel' took 0.193
+[2024.02.17-11.12.57:862][317]LogSavePackage: Moving output files for package: /Game/Level/Actors/BP_Key_Puzzle
+[2024.02.17-11.12.57:864][317]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Key_Puzzle690AA1534002BE6DA64983920C6A514D.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/Actors/BP_Key_Puzzle.uasset'
+[2024.02.17-11.12.57:881][317]LogFileHelpers: InternalPromptForCheckoutAndSave took 364 ms (total: 15.8 sec)
+[2024.02.17-11.12.57:884][317]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.17-11.12.57:884][317]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainLevel.MainLevel
+[2024.02.17-11.12.57:884][317]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Level/Actors/BP_Key_Puzzle.BP_Key_Puzzle
+[2024.02.17-11.13.01:639][515]BlueprintLog: New page: Compile BP_Key_Puzzle
+[2024.02.17-11.13.01:726][515]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2024.02.17-11.13.02:710][543]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2024.02.17-11.13.02:723][543]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-11.13.02:795][543]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-11.13.02:911][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.02.17-11.13.02:953][543]LogSavePackage: Moving output files for package: /Game/Level/MainLevel
+[2024.02.17-11.13.02:955][543]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/MainLevel5C727507450C0FDC1DA6848F62E2DFBB.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/MainLevel.umap'
+[2024.02.17-11.13.02:978][543]LogFileHelpers: Saving map 'MainLevel' took 0.184
+[2024.02.17-11.13.03:028][543]LogSavePackage: Moving output files for package: /Game/Level/Actors/BP_Key_Puzzle
+[2024.02.17-11.13.03:030][543]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Key_Puzzle27097A594238FA935254818CADD62DC0.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/Actors/BP_Key_Puzzle.uasset'
+[2024.02.17-11.13.03:046][543]LogFileHelpers: InternalPromptForCheckoutAndSave took 323 ms (total: 16.1 sec)
+[2024.02.17-11.13.03:050][543]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.17-11.13.03:050][543]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/MainLevel.MainLevel
+[2024.02.17-11.13.03:051][543]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Level/Actors/BP_Key_Puzzle.BP_Key_Puzzle
+[2024.02.17-11.13.03:362][553]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.17-11.13.03:383][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.17-11.13.03:383][553]PIE: New page: PIE session: MainLevel (17/02/2024, 11:13:03)
+[2024.02.17-11.13.03:384][553]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_MainLevel
+[2024.02.17-11.13.03:394][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010634s)
+[2024.02.17-11.13.03:394][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/MainLevel.MainLevel to /Game/Level/UEDPIE_0_MainLevel.MainLevel (0.010758s)
+[2024.02.17-11.13.03:432][553]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2024.02.17-11.13.03:434][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-11.13.03:434][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-11.13.03:435][553]LogAIModule: Creating AISystem for world MainLevel
+[2024.02.17-11.13.03:435][553]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2024.02.17-11.13.03:435][553]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2024.02.17-11.13.03:435][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.17-11.13.03:435][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.17-11.13.03:435][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.17-11.13.03:435][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.17-11.13.03:436][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.17-11.13.03:436][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.17-11.13.03:436][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.17-11.13.03:436][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.17-11.13.03:437][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.17-11.13.03:437][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.17-11.13.03:437][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.17-11.13.03:443][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.17-11.13.03:487][553]LogAudioMixer: Display: Using Audio Hardware Device Speaker / Headphone (Realtek(R) Audio)
+[2024.02.17-11.13.03:488][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.17-11.13.03:488][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.17-11.13.03:488][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.17-11.13.03:492][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2024.02.17-11.13.03:492][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2024.02.17-11.13.03:497][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2024.02.17-11.13.03:497][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2024.02.17-11.13.03:497][553]LogInit: FAudioDevice initialized with ID 46.
+[2024.02.17-11.13.03:497][553]LogAudio: Display: Audio Device (ID: 46) registered with world 'MainLevel'.
+[2024.02.17-11.13.03:497][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2024.02.17-11.13.03:569][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.17-11.13.03:570][553]LogLoad: Game class is 'MainGameMode_C'
+[2024.02.17-11.13.03:585][553]LogWorld: Bringing World /Game/Level/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.02.17-11.13.03
+[2024.02.17-11.13.03:587][553]LogWorld: Bringing up level for play took: 0.014568
+[2024.02.17-11.13.03:597][553]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.02.17-11.13.03:612][553]PIE: Server logged in
+[2024.02.17-11.13.03:614][553]PIE: Play in editor total start time 0,232 seconds.
+[2024.02.17-11.13.03:648][553]LogViewport: Scene viewport resized to 1280x698, mode Windowed.
+[2024.02.17-11.13.05:805][617]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.13.09:051][743]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.13.13:294][911]LogBlueprintUserMessages: [BP_Player_C_0] BP_Key.SM_Cube Cube
+[2024.02.17-11.13.19:263][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.17-11.13.19:263][147]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_MainLevel
+[2024.02.17-11.13.19:266][147]LogSlate: Window 'BeginnersCourse Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2024.02.17-11.13.19:275][147]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.17-11.13.19:276][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-11.13.19:290][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.17-11.13.19:310][147]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-11.13.19:364][147]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2024.02.17-11.13.19:365][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.02.17-11.13.19:371][147]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.02.17-11.13.19:409][147]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2024.02.17-11.13.19:795][148]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.02.17-11.13.51:966][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2024.02.17-11.13.51:978][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-11.13.52:068][895]LogSavePackage: Moving output files for package: /Game/Level/Actors/BP_Key_Puzzle
+[2024.02.17-11.13.52:070][895]LogSavePackage: Moving '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Saved/BP_Key_Puzzle70291AF04E2534F2EEB935A446C69077.tmp' to '../../../../../../dev/unreal/Udemy/unreal-engine-5-the-complete-beginners-course/BeginnersCourse/Content/Level/Actors/BP_Key_Puzzle.uasset'
+[2024.02.17-11.13.52:087][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 16.2 sec)
+[2024.02.17-11.13.52:091][895]AssetCheck: New page: Asset Save: BP_Key_Puzzle
+[2024.02.17-11.13.52:091][895]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Level/Actors/BP_Key_Puzzle.BP_Key_Puzzle
+[2024.02.17-11.13.52:450][913]BlueprintLog: New page: Compile BP_Key_Puzzle
+[2024.02.17-11.13.52:525][913]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
